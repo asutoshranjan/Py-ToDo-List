@@ -1,6 +1,18 @@
-people = ["john", "jane", "joe"]
-nname = input("Enter the new name :")
-people.append(nname)
+#while loop
 
-for name in people:
-    print(name)
+r = input("Enter the range : ")
+i = 1
+while i<= int(r) :
+    print(i)
+    i += 1
+
+print(5*"*")
+
+#extracing the digs
+
+b = 23
+n = 0
+
+while b>0:
+    print(b%10)
+    b = int(b/10)
